@@ -1,0 +1,26 @@
+{
+  "secrets": [
+    {
+      "name": "AUTH0_ADMIN_FRONTEND_URL",
+      "label": "Auth0 Admin Frontend URL",
+      "description": "Secret used to get the token"
+    },
+    {
+      "name": "FRONTEND_ACCESS_API",
+      "label": "Frontend Access API",
+      "description": "Secret used to get the token"
+    },
+    {
+      "name": "LOGIN_API",
+      "label": "Login API",
+      "description": "Secret used to get the token"
+    }
+  ],
+  "configuration": [],
+  "dependencies": [
+    {
+      "name": "axios",
+      "version": "1.6.0"
+    }
+  ]
+}
