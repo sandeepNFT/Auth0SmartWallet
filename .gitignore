@@ -3,3 +3,5 @@ package-lock.json/
 Makefile/
 test.js/
 package.json/
+.env/
+```
