@@ -5,7 +5,7 @@
 An Auth0 account and tenant. [Sign up for free](https://auth0.com/signup).
 
 
-## Set up [NFTBrewery SmartWallet]
+## Set up [Auth0Smartwallet] 
 
 To get SmartWallet Address simple login with Auth0 and intern it will return smart wallet Address
 
