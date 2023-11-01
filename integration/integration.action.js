@@ -60,9 +60,13 @@ exports.onExecutePostLogin = async (event, api) => {
         
       //make a request to create smart wallet address
       const response_wallet = await axios.request(config_wallet); 
+
+      const smart_wallet_address = response_wallet.data.smartWalletAddress;
+
+      console.log("smart_wallet_address : ", smart_wallet_address);
   
       //return the response
-      return response_wallet.data.smartWalletAddress ;
+      return smart_wallet_address;
           
     } else {
       api.access.deny("Email not verified");
