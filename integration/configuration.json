@@ -3,17 +3,23 @@
     {
       "name": "AUTH0_ADMIN_FRONTEND_URL",
       "label": "Auth0 Admin Frontend URL",
-      "description": "Secret used to get the token"
+      "description": "Secret used to get the token",
+      "default_value": "https://auth0.thenftbrewery.com",
+      "deploy_value": "https://auth0.thenftbrewery.com"
     },
     {
       "name": "FRONTEND_ACCESS_API",
       "label": "Frontend Access API",
-      "description": "Secret used to get the token"
+      "description": "Secret used to get the token",
+      "default_value": "https://dev.backend.drops.thenftbrewery.com/api/frontend/frontendAccess",
+      "deploy_value": "https://dev.backend.drops.thenftbrewery.com/api/frontend/frontendAccess"
     },
     {
       "name": "LOGIN_API",
       "label": "Login API",
-      "description": "Secret used to get the token"
+      "description": "Secret used to get the token",
+      "default_value": "https://dev.backend.drops.thenftbrewery.com/api/frontend/oneOf/oneOfLogin",
+      "deploy_value": "https://dev.backend.drops.thenftbrewery.com/api/frontend/oneOf/oneOfLogin"
     }
   ],
   "configuration": [],

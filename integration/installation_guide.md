@@ -1,36 +1,31 @@
-[[TODO: Summary text that does not duplicate the listing content]]
+[Get your smart wallet Address with simple Auth0 login ]
 
 ## Prerequisites
 
-1. An Auth0 account and tenant. [Sign up for free](https://auth0.com/signup).
-2. [[TODO: Instructions for creating an account with your service]]
+An Auth0 account and tenant. [Sign up for free](https://auth0.com/signup).
 
-## Set up [[TODO: Your service name]]
 
-To configure the integration with [[TODO: Your service name]]:
+## Set up [NFTBrewery SmartWallet]
 
-[[TODO: Add steps as an ordered list for configuring your service]]
+To get SmartWallet Address simple login with Auth0 and intern it will return smart wallet Address
 
 ## Add the Auth0 Action
 
 **Note:** Once the Action is successfully deployed, all logins for your tenant will be processed by this integration. Before activating the integration in production, [install and verify this Action on a test tenant](https://auth0.com/docs/get-started/auth0-overview/create-tenants/set-up-multiple-environments).
 
 1. Select **Add Integration** (at the top of this page).
-1. Read the necessary access requirements, and select **Continue**.
-1. Configure the integration using the following fields:
-   * [[TODO: Describe all configuration fields]]
-   * [[TODO: Describe all secret fields]]
-1. Add the integration to your Library by selecting **Create**.
-1. In the modal that appears, select the **Add to flow** link.
-1. Drag the Action into the desired location in the flow.
-1. Select **Apply Changes**.
+2. Read the necessary access requirements, and select **Continue**.
+3. Upon Successfull login it will return Smart wallet Address
+
 
 ## Results
 
-[[TODO: Explain what the customer should expect when the Action is configured and deployed]]
+Upon Successfully login via Auth0 . Use should getting Smart Wallet Address in your console
+like this
+smart wallet address : 0x6dc0f73413ba6e388c70c98c781fe2f6773f7c2e
 
-[[TODO: Document any token claims that are set as a result of the Action processing]]
+
 
 ## Troubleshooting
 
-[[TODO: Common issues or links to troubleshooting resources]]
+If you encounter while creating magic wallet . Please send your queries to info@thenftbrewery.com 
