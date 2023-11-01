@@ -26,6 +26,8 @@
 //   });
 // });
 
+
+
 // npx jest test.js
 const axios = require('axios');
 const { onExecutePostLogin } = require('./integration.action'); // Replace 'yourFilePath' with the actual path to your file
@@ -53,7 +55,7 @@ describe('onExecutePostLogin', () => {
     };
 
     const responseData = {
-      smartWalletAddress: 'test_smart_wallet_address',
+      smartWalletAddress: '0xBFc1F88080FadaBb48a1AB4B92dda7A7480D9328',
     };
 
     axios.request.mockImplementationOnce(() =>
